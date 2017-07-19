@@ -1,0 +1,5 @@
+use_frameworks!
+platform :ios, '7.0'
+target 'YogaApp' do
+pod "youtube-ios-player-helper", "~> 0.1.4"
+end

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40EA6CCE1EE8064700E908E9"
-               BuildableName = "YogaApp.app"
-               BlueprintName = "YogaApp"
-               ReferencedContainer = "container:YogaApp.xcodeproj">
+               BlueprintIdentifier = "769528C2C8930AD545470B9BFF3F08B4"
+               BuildableName = "youtube_ios_player_helper.framework"
+               BlueprintName = "youtube-ios-player-helper"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40EA6CCE1EE8064700E908E9"
-            BuildableName = "YogaApp.app"
-            BlueprintName = "YogaApp"
-            ReferencedContainer = "container:YogaApp.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40EA6CCE1EE8064700E908E9"
-            BuildableName = "YogaApp.app"
-            BlueprintName = "YogaApp"
-            ReferencedContainer = "container:YogaApp.xcodeproj">
+            BlueprintIdentifier = "769528C2C8930AD545470B9BFF3F08B4"
+            BuildableName = "youtube_ios_player_helper.framework"
+            BlueprintName = "youtube-ios-player-helper"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40EA6CCE1EE8064700E908E9"
-            BuildableName = "YogaApp.app"
-            BlueprintName = "YogaApp"
-            ReferencedContainer = "container:YogaApp.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

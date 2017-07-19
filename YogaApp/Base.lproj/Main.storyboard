@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YogaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +22,350 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrH-mR-cnI">
+                                <rect key="frame" x="0.0" y="85" width="375" height="517"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pp8-YR-m37">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="318.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yoga1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RUl-qX-xzP">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="318.5"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfD-bc-7Zd" customClass="YTPlayerView">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="318.5"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="RUl-qX-xzP" secondAttribute="trailing" id="5t7-5E-7HR"/>
+                                            <constraint firstItem="tfD-bc-7Zd" firstAttribute="top" secondItem="Pp8-YR-m37" secondAttribute="top" id="OS4-N8-AdY"/>
+                                            <constraint firstAttribute="trailing" secondItem="tfD-bc-7Zd" secondAttribute="trailing" id="PVx-66-yiK"/>
+                                            <constraint firstAttribute="bottom" secondItem="tfD-bc-7Zd" secondAttribute="bottom" id="XAL-l1-kYQ"/>
+                                            <constraint firstItem="RUl-qX-xzP" firstAttribute="leading" secondItem="Pp8-YR-m37" secondAttribute="leading" id="aJb-kG-qW1"/>
+                                            <constraint firstAttribute="bottom" secondItem="RUl-qX-xzP" secondAttribute="bottom" id="f76-yP-f16"/>
+                                            <constraint firstItem="tfD-bc-7Zd" firstAttribute="leading" secondItem="Pp8-YR-m37" secondAttribute="leading" id="hOj-lx-vBM"/>
+                                            <constraint firstItem="RUl-qX-xzP" firstAttribute="top" secondItem="Pp8-YR-m37" secondAttribute="top" id="hQz-I6-Dl2"/>
+                                            <constraint firstAttribute="width" secondItem="Pp8-YR-m37" secondAttribute="height" multiplier="100:85" id="j5J-vi-O4U"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzs-lB-0HB">
+                                        <rect key="frame" x="0.0" y="318.5" width="375" height="212.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUI-zK-uRe" customClass="GradientButton" customModule="YogaApp" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="5" width="177.5" height="59"/>
+                                                <color key="backgroundColor" red="0.95686274509803915" green="0.27450980392156865" blue="0.0" alpha="0.81892123287671237" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="HUI-zK-uRe" secondAttribute="height" multiplier="225:75" id="kha-iu-3pB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="About Yoga Day">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                                        <color key="value" red="0.95686274509803915" green="0.27450980392156865" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                                        <color key="value" red="0.79607843137254897" green="0.26666666666666666" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="aboutYogaDay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gut-7Z-fIT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjM-cS-iX9" customClass="GradientButton" customModule="YogaApp" customModuleProvider="target">
+                                                <rect key="frame" x="192.5" y="5" width="177.5" height="59"/>
+                                                <color key="backgroundColor" red="0.0" green="0.14117647058823529" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="About Yoga">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                                        <color key="value" red="0.035294117647058823" green="0.27058823529411763" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                                        <color key="value" red="0.0" green="0.086274509803921567" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="aboutYoga:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KDI-c7-e8F"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJ3-1U-LeK" customClass="GradientButton" customModule="YogaApp" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="74" width="177.5" height="59.5"/>
+                                                <color key="backgroundColor" red="0.0" green="0.39215686274509803" blue="0.11372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Yoga Part A">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                                        <color key="value" red="0.0" green="0.51764705882352935" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                                        <color key="value" red="0.0" green="0.19215686274509802" blue="0.062745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="yogaPartA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="otd-ur-7l7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKz-Iv-zjZ" customClass="GradientButton" customModule="YogaApp" customModuleProvider="target">
+                                                <rect key="frame" x="192.5" y="74" width="177.5" height="59.5"/>
+                                                <color key="backgroundColor" red="0.80000000000000004" green="0.36470588235294116" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Yoga Part B">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                                        <color key="value" red="0.80000000000000004" green="0.36470588235294116" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="middleColor">
+                                                        <color key="value" red="0.49411764705882355" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                                        <color key="value" red="0.4941176471" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="yogaPartB:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T6G-NL-9rO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmH-Dv-RoQ" customClass="GradientButton" customModule="YogaApp" customModuleProvider="target">
+                                                <rect key="frame" x="5" y="143.5" width="177.5" height="59"/>
+                                                <color key="backgroundColor" red="0.41960784313725491" green="0.0" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Yoga Part C">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                                        <color key="value" red="0.38823529411764707" green="0.0" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                                        <color key="value" red="0.49019607843137253" green="0.0" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="yogaPartC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bz0-BS-Xka"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZjK-rw-rVZ" customClass="GradientButton" customModule="YogaApp" customModuleProvider="target">
+                                                <rect key="frame" x="192.5" y="143.5" width="177.5" height="59"/>
+                                                <color key="backgroundColor" red="0.40392156862745099" green="0.0" blue="0.047058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Yoga Part D">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                                        <color key="value" red="0.51372549019607838" green="0.0" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                                        <color key="value" red="0.2196078431372549" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="yogaPartD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nOb-YP-oAy"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="ZjK-rw-rVZ" secondAttribute="bottom" constant="10" id="13u-fx-pia"/>
+                                            <constraint firstItem="jKz-Iv-zjZ" firstAttribute="width" secondItem="GJ3-1U-LeK" secondAttribute="width" id="3MO-m2-4vu"/>
+                                            <constraint firstAttribute="trailing" secondItem="bjM-cS-iX9" secondAttribute="trailing" constant="5" id="64h-3d-JIC"/>
+                                            <constraint firstItem="ZjK-rw-rVZ" firstAttribute="height" secondItem="HUI-zK-uRe" secondAttribute="height" id="8Jq-VF-r4K"/>
+                                            <constraint firstItem="QmH-Dv-RoQ" firstAttribute="leading" secondItem="fzs-lB-0HB" secondAttribute="leading" constant="5" id="ASZ-aC-oQf"/>
+                                            <constraint firstItem="bjM-cS-iX9" firstAttribute="leading" secondItem="HUI-zK-uRe" secondAttribute="trailing" constant="10" id="Bu5-Mo-uyz"/>
+                                            <constraint firstItem="ZjK-rw-rVZ" firstAttribute="leading" secondItem="QmH-Dv-RoQ" secondAttribute="trailing" constant="10" id="EUi-8c-Sz8"/>
+                                            <constraint firstItem="bjM-cS-iX9" firstAttribute="top" secondItem="fzs-lB-0HB" secondAttribute="top" constant="5" id="M3D-ya-Ees"/>
+                                            <constraint firstItem="jKz-Iv-zjZ" firstAttribute="top" secondItem="HUI-zK-uRe" secondAttribute="bottom" constant="10" id="QQC-S6-9nP"/>
+                                            <constraint firstItem="ZjK-rw-rVZ" firstAttribute="width" secondItem="QmH-Dv-RoQ" secondAttribute="width" id="QlP-Wy-EOE"/>
+                                            <constraint firstItem="jKz-Iv-zjZ" firstAttribute="leading" secondItem="GJ3-1U-LeK" secondAttribute="trailing" constant="10" id="SuE-3q-F17"/>
+                                            <constraint firstItem="bjM-cS-iX9" firstAttribute="height" secondItem="HUI-zK-uRe" secondAttribute="height" id="UZZ-2r-0Ra"/>
+                                            <constraint firstItem="jKz-Iv-zjZ" firstAttribute="height" secondItem="HUI-zK-uRe" secondAttribute="height" id="UxK-rz-B4Z"/>
+                                            <constraint firstItem="ZjK-rw-rVZ" firstAttribute="top" secondItem="jKz-Iv-zjZ" secondAttribute="bottom" constant="10" id="XA6-lO-7Cv"/>
+                                            <constraint firstItem="bjM-cS-iX9" firstAttribute="width" secondItem="HUI-zK-uRe" secondAttribute="width" id="Yof-sW-b1K"/>
+                                            <constraint firstItem="HUI-zK-uRe" firstAttribute="top" secondItem="fzs-lB-0HB" secondAttribute="top" constant="5" id="Zt3-LZ-ajz"/>
+                                            <constraint firstAttribute="trailing" secondItem="jKz-Iv-zjZ" secondAttribute="trailing" constant="5" id="eh1-P9-Mb4"/>
+                                            <constraint firstItem="GJ3-1U-LeK" firstAttribute="leading" secondItem="fzs-lB-0HB" secondAttribute="leading" constant="5" id="exQ-7p-n6J"/>
+                                            <constraint firstAttribute="bottom" secondItem="QmH-Dv-RoQ" secondAttribute="bottom" constant="10" id="k5k-JF-DF5"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZjK-rw-rVZ" secondAttribute="trailing" constant="5" id="kAn-Du-jx9"/>
+                                            <constraint firstItem="GJ3-1U-LeK" firstAttribute="height" secondItem="HUI-zK-uRe" secondAttribute="height" id="txK-wS-tig"/>
+                                            <constraint firstItem="GJ3-1U-LeK" firstAttribute="top" secondItem="HUI-zK-uRe" secondAttribute="bottom" constant="10" id="ukw-mm-KHm"/>
+                                            <constraint firstItem="QmH-Dv-RoQ" firstAttribute="top" secondItem="GJ3-1U-LeK" secondAttribute="bottom" constant="10" id="wZR-as-bgn"/>
+                                            <constraint firstItem="QmH-Dv-RoQ" firstAttribute="height" secondItem="HUI-zK-uRe" secondAttribute="height" id="yBd-Tw-wNL"/>
+                                            <constraint firstItem="HUI-zK-uRe" firstAttribute="leading" secondItem="fzs-lB-0HB" secondAttribute="leading" constant="5" id="zBi-Pk-iTF"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Pp8-YR-m37" secondAttribute="trailing" id="3iu-LR-Rwa"/>
+                                    <constraint firstItem="Pp8-YR-m37" firstAttribute="centerX" secondItem="jrH-mR-cnI" secondAttribute="centerX" id="8zg-l2-KpZ"/>
+                                    <constraint firstItem="fzs-lB-0HB" firstAttribute="leading" secondItem="jrH-mR-cnI" secondAttribute="leading" id="9kd-bL-OBE"/>
+                                    <constraint firstItem="Pp8-YR-m37" firstAttribute="top" secondItem="jrH-mR-cnI" secondAttribute="top" id="BRR-X7-dhW"/>
+                                    <constraint firstAttribute="trailing" secondItem="fzs-lB-0HB" secondAttribute="trailing" id="MvM-LI-qHR"/>
+                                    <constraint firstItem="Pp8-YR-m37" firstAttribute="top" secondItem="jrH-mR-cnI" secondAttribute="top" id="Nnr-m7-zGU"/>
+                                    <constraint firstItem="Pp8-YR-m37" firstAttribute="top" secondItem="jrH-mR-cnI" secondAttribute="top" id="VEG-wk-IXx"/>
+                                    <constraint firstItem="Pp8-YR-m37" firstAttribute="leading" secondItem="jrH-mR-cnI" secondAttribute="leading" id="Xo4-05-eQF"/>
+                                    <constraint firstAttribute="bottom" secondItem="fzs-lB-0HB" secondAttribute="bottom" id="qIS-j9-g9X"/>
+                                    <constraint firstItem="fzs-lB-0HB" firstAttribute="top" secondItem="Pp8-YR-m37" secondAttribute="bottom" id="u1E-nK-iDF"/>
+                                </constraints>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C1h-wx-HJe">
+                                <rect key="frame" x="0.0" y="602" width="375" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lots of random text which makes no sense but you're still reading it.              " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gW0-oM-Mf9" userLabel="Lots of random text which makes no sense but you're still reading it.">
+                                        <rect key="frame" x="-117.5" y="22.5" width="610" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.25054019689559937" green="0.32383203506469727" blue="0.60799801349639893" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="gW0-oM-Mf9" firstAttribute="centerY" secondItem="C1h-wx-HJe" secondAttribute="centerY" id="cgX-hu-lTb"/>
+                                    <constraint firstItem="gW0-oM-Mf9" firstAttribute="centerX" secondItem="C1h-wx-HJe" secondAttribute="centerX" id="uIK-r6-89Z"/>
+                                    <constraint firstAttribute="height" constant="65" id="yCp-3C-21Z"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hnv-8O-iJB">
+                                <rect key="frame" x="0.0" y="20" width="375" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yoga Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaZ-fM-NOx">
+                                        <rect key="frame" x="10" y="22.5" width="90" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIt-b3-jM3">
+                                        <rect key="frame" x="291" y="16.5" width="79" height="32"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="5" maxX="55" maxY="5"/>
+                                        <state key="normal" title="Share" image="share-symbol.png">
+                                            <color key="titleColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98431372549999996" alpha="0.75" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RN-Vn-gc9">
+                                        <rect key="frame" x="246" y="15" width="35" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="1RN-Vn-gc9" secondAttribute="height" multiplier="1:1" id="y53-KG-XAg"/>
+                                        </constraints>
+                                        <state key="normal" image="bell.png"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.24705882352941178" green="0.31764705882352939" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="RaZ-fM-NOx" firstAttribute="leading" secondItem="hnv-8O-iJB" secondAttribute="leading" constant="10" id="5u9-vp-VVc"/>
+                                    <constraint firstItem="1RN-Vn-gc9" firstAttribute="centerY" secondItem="hnv-8O-iJB" secondAttribute="centerY" id="6EI-u8-eFA"/>
+                                    <constraint firstItem="RaZ-fM-NOx" firstAttribute="centerY" secondItem="hnv-8O-iJB" secondAttribute="centerY" id="FI4-PO-hav"/>
+                                    <constraint firstItem="rIt-b3-jM3" firstAttribute="leading" secondItem="1RN-Vn-gc9" secondAttribute="trailing" constant="10" id="K3t-Ko-099"/>
+                                    <constraint firstAttribute="bottom" secondItem="1RN-Vn-gc9" secondAttribute="bottom" constant="15" id="VDH-Kd-3A0"/>
+                                    <constraint firstItem="1RN-Vn-gc9" firstAttribute="top" secondItem="hnv-8O-iJB" secondAttribute="top" constant="15" id="Vjq-pg-qMt"/>
+                                    <constraint firstAttribute="height" constant="65" id="brZ-9H-Bsd"/>
+                                    <constraint firstItem="rIt-b3-jM3" firstAttribute="centerY" secondItem="hnv-8O-iJB" secondAttribute="centerY" id="qk7-pB-L4f"/>
+                                    <constraint firstAttribute="trailing" secondItem="rIt-b3-jM3" secondAttribute="trailing" constant="5" id="rBp-eo-bdO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="hnv-8O-iJB" secondAttribute="trailing" constant="-16" id="9xt-sM-i4S"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="C1h-wx-HJe" secondAttribute="bottom" id="JQ8-Op-mMU"/>
+                            <constraint firstAttribute="trailing" secondItem="C1h-wx-HJe" secondAttribute="trailing" id="Kiy-Xs-tnq"/>
+                            <constraint firstItem="jrH-mR-cnI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="R4M-K0-ghw"/>
+                            <constraint firstItem="C1h-wx-HJe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gaZ-MA-iz4"/>
+                            <constraint firstItem="jrH-mR-cnI" firstAttribute="top" secondItem="hnv-8O-iJB" secondAttribute="bottom" id="h6J-UT-cBS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jrH-mR-cnI" secondAttribute="bottom" constant="65" id="iFc-zv-mIs"/>
+                            <constraint firstItem="hnv-8O-iJB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="lbj-AJ-kcu"/>
+                            <constraint firstItem="hnv-8O-iJB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="lct-Ua-F1a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jrH-mR-cnI" secondAttribute="trailing" constant="-16" id="nkf-VO-kNa"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="b1" destination="HUI-zK-uRe" id="sLa-lV-ij3"/>
+                        <outlet property="b2" destination="bjM-cS-iX9" id="HTi-dc-Idi"/>
+                        <outlet property="b3" destination="GJ3-1U-LeK" id="N4m-Sr-87o"/>
+                        <outlet property="b4" destination="jKz-Iv-zjZ" id="1eK-mn-55U"/>
+                        <outlet property="b5" destination="QmH-Dv-RoQ" id="mJo-Ss-qdT"/>
+                        <outlet property="b6" destination="ZjK-rw-rVZ" id="q86-33-5av"/>
+                        <outlet property="bottomMarqueeLabel" destination="gW0-oM-Mf9" id="O1E-s9-ZVK"/>
+                        <outlet property="playerView" destination="tfD-bc-7Zd" id="4lf-GJ-Ftg"/>
+                        <outlet property="topImageView" destination="RUl-qX-xzP" id="yCa-qs-CfT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="138.58695652173915"/>
+        </scene>
+        <!--Second Controller-->
+        <scene sceneID="0Jk-p2-3so">
+            <objects>
+                <viewController id="Dew-BG-RDq" customClass="SecondController" customModule="YogaApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ifa-VJ-Q4X"/>
+                        <viewControllerLayoutGuide type="bottom" id="T9P-Pg-j0L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hlt-Py-zHq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Blk-iz-aeV" customClass="GradientButton" customModule="YogaApp" customModuleProvider="target">
+                                <rect key="frame" x="60" y="132" width="128" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Blk-iz-aeV" secondAttribute="height" multiplier="1:1" id="3iq-uR-Vax"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                        <color key="value" red="0.80000000000000004" green="0.36470588240000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="middleColor">
+                                        <color key="value" red="0.25054019690000001" green="0.32383203510000003" blue="0.60799801350000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                        <color key="value" red="0.0" green="0.51764705879999995" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topAlpha">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="middleAlpha">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomAlpha">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerSize">
+                                        <real key="value" value="150"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.035294117649999998" green="0.27058823529999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderSize">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Blk-iz-aeV" firstAttribute="top" secondItem="Ifa-VJ-Q4X" secondAttribute="bottom" constant="112" id="Bgd-IY-0Tv"/>
+                            <constraint firstItem="Blk-iz-aeV" firstAttribute="leading" secondItem="Hlt-Py-zHq" secondAttribute="leadingMargin" constant="44" id="QtS-Pd-lf2"/>
+                            <constraint firstItem="T9P-Pg-j0L" firstAttribute="top" secondItem="Blk-iz-aeV" secondAttribute="bottom" constant="407" id="hAy-Xu-tbl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nJM-T4-cBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="148"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bell.png" width="32" height="32"/>
+        <image name="share-symbol.png" width="32" height="32"/>
+        <image name="yoga1.jpg" width="1680" height="1086"/>
+    </resources>
 </document>

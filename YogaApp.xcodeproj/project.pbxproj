@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08CE0E3AFB1FEBBEE00B9731 /* Pods_YogaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16039F73BC11130B3386BC0 /* Pods_YogaApp.framework */; };
+		409BF67A1EEEA5740087AF8A /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BF6791EEEA5740087AF8A /* GradientButton.swift */; };
+		409BF67C1EEEA9AB0087AF8A /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BF67B1EEEA9AB0087AF8A /* SecondController.swift */; };
 		40EA6CD31EE8064700E908E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6CD21EE8064700E908E9 /* AppDelegate.swift */; };
 		40EA6CD51EE8064700E908E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6CD41EE8064700E908E9 /* ViewController.swift */; };
 		40EA6CD81EE8064700E908E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CD61EE8064700E908E9 /* Main.storyboard */; };
 		40EA6CDA1EE8064700E908E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CD91EE8064700E908E9 /* Assets.xcassets */; };
 		40EA6CDD1EE8064700E908E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CDB1EE8064700E908E9 /* LaunchScreen.storyboard */; };
+		40EA6CE71EE808FE00E908E9 /* share-symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CE61EE808FE00E908E9 /* share-symbol.png */; };
+		40EA6CE91EE809A000E908E9 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CE81EE809A000E908E9 /* bell.png */; };
+		40EA6CEB1EE80AF700E908E9 /* share-symbol(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CEA1EE80AF700E908E9 /* share-symbol(1).png */; };
+		40EA6CEE1EE80BC600E908E9 /* 329596-yoga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CED1EE80BC600E908E9 /* 329596-yoga.jpg */; };
+		40EA6CF01EE80BDD00E908E9 /* world-yoga-day-e1433709376444.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CEF1EE80BDD00E908E9 /* world-yoga-day-e1433709376444.jpg */; };
+		40EA6CF21EE80BE400E908E9 /* CHo7IznWwAAfD6K.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CF11EE80BE400E908E9 /* CHo7IznWwAAfD6K.jpg */; };
+		40EA6CF41EE80BEC00E908E9 /* yoga8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CF31EE80BEC00E908E9 /* yoga8.gif */; };
+		40EA6CF61EE80BF300E908E9 /* yoga9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CF51EE80BF300E908E9 /* yoga9.jpg */; };
+		40EA6CF81EE80BFA00E908E9 /* yoga10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CF71EE80BFA00E908E9 /* yoga10.jpg */; };
+		40EA6CFA1EE80BFF00E908E9 /* yoga11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CF91EE80BFF00E908E9 /* yoga11.jpg */; };
+		40EA6CFC1EE80C1100E908E9 /* yoga1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CFB1EE80C1100E908E9 /* yoga1.jpg */; };
+		40EA6CFE1EE80C1D00E908E9 /* yoga2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CFD1EE80C1D00E908E9 /* yoga2.jpg */; };
+		40EA6D001EE80C2C00E908E9 /* yoga3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6CFF1EE80C2C00E908E9 /* yoga3.jpg */; };
+		40EA6D021EE80C3300E908E9 /* yoga5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6D011EE80C3300E908E9 /* yoga5.jpg */; };
+		40EA6D061EE80E6600E908E9 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EA6D051EE80E6600E908E9 /* YTPlayerView.m */; };
+		40EA6D081EE80E8400E908E9 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40EA6D071EE80E8400E908E9 /* Assets.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		409BF6791EEEA5740087AF8A /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		409BF67B1EEEA9AB0087AF8A /* SecondController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
 		40EA6CCF1EE8064700E908E9 /* YogaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EA6CD21EE8064700E908E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40EA6CD41EE8064700E908E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,27 @@
 		40EA6CD91EE8064700E908E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40EA6CDC1EE8064700E908E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40EA6CDE1EE8064700E908E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EA6CE61EE808FE00E908E9 /* share-symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-symbol.png"; sourceTree = "<group>"; };
+		40EA6CE81EE809A000E908E9 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		40EA6CEA1EE80AF700E908E9 /* share-symbol(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-symbol(1).png"; sourceTree = "<group>"; };
+		40EA6CED1EE80BC600E908E9 /* 329596-yoga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "329596-yoga.jpg"; sourceTree = "<group>"; };
+		40EA6CEF1EE80BDD00E908E9 /* world-yoga-day-e1433709376444.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "world-yoga-day-e1433709376444.jpg"; sourceTree = "<group>"; };
+		40EA6CF11EE80BE400E908E9 /* CHo7IznWwAAfD6K.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CHo7IznWwAAfD6K.jpg; sourceTree = "<group>"; };
+		40EA6CF31EE80BEC00E908E9 /* yoga8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yoga8.gif; sourceTree = "<group>"; };
+		40EA6CF51EE80BF300E908E9 /* yoga9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga9.jpg; sourceTree = "<group>"; };
+		40EA6CF71EE80BFA00E908E9 /* yoga10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga10.jpg; sourceTree = "<group>"; };
+		40EA6CF91EE80BFF00E908E9 /* yoga11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga11.jpg; sourceTree = "<group>"; };
+		40EA6CFB1EE80C1100E908E9 /* yoga1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga1.jpg; sourceTree = "<group>"; };
+		40EA6CFD1EE80C1D00E908E9 /* yoga2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga2.jpg; sourceTree = "<group>"; };
+		40EA6CFF1EE80C2C00E908E9 /* yoga3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga3.jpg; sourceTree = "<group>"; };
+		40EA6D011EE80C3300E908E9 /* yoga5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga5.jpg; sourceTree = "<group>"; };
+		40EA6D031EE80E6600E908E9 /* YogaApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YogaApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		40EA6D041EE80E6600E908E9 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		40EA6D051EE80E6600E908E9 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		40EA6D071EE80E8400E908E9 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		8F19750F0C0121FF2C999E6F /* Pods-YogaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YogaApp/Pods-YogaApp.release.xcconfig"; sourceTree = "<group>"; };
+		92550E6FC975392D1A68DF83 /* Pods-YogaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YogaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YogaApp/Pods-YogaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A16039F73BC11130B3386BC0 /* Pods_YogaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YogaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CE0E3AFB1FEBBEE00B9731 /* Pods_YogaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +83,8 @@
 			children = (
 				40EA6CD11EE8064700E908E9 /* YogaApp */,
 				40EA6CD01EE8064700E908E9 /* Products */,
+				4533481C2EC93CE429993542 /* Pods */,
+				77F33C02E9DA44017F414D60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +99,67 @@
 		40EA6CD11EE8064700E908E9 /* YogaApp */ = {
 			isa = PBXGroup;
 			children = (
+				40EA6D071EE80E8400E908E9 /* Assets.bundle */,
+				40EA6D041EE80E6600E908E9 /* YTPlayerView.h */,
+				40EA6D051EE80E6600E908E9 /* YTPlayerView.m */,
+				40EA6CEC1EE80BAD00E908E9 /* images */,
+				40EA6CE51EE808F200E908E9 /* icons */,
 				40EA6CD21EE8064700E908E9 /* AppDelegate.swift */,
 				40EA6CD41EE8064700E908E9 /* ViewController.swift */,
 				40EA6CD61EE8064700E908E9 /* Main.storyboard */,
 				40EA6CD91EE8064700E908E9 /* Assets.xcassets */,
 				40EA6CDB1EE8064700E908E9 /* LaunchScreen.storyboard */,
 				40EA6CDE1EE8064700E908E9 /* Info.plist */,
+				40EA6D031EE80E6600E908E9 /* YogaApp-Bridging-Header.h */,
+				409BF6791EEEA5740087AF8A /* GradientButton.swift */,
+				409BF67B1EEEA9AB0087AF8A /* SecondController.swift */,
 			);
 			path = YogaApp;
+			sourceTree = "<group>";
+		};
+		40EA6CE51EE808F200E908E9 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6CEA1EE80AF700E908E9 /* share-symbol(1).png */,
+				40EA6CE81EE809A000E908E9 /* bell.png */,
+				40EA6CE61EE808FE00E908E9 /* share-symbol.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		40EA6CEC1EE80BAD00E908E9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				40EA6D011EE80C3300E908E9 /* yoga5.jpg */,
+				40EA6CFF1EE80C2C00E908E9 /* yoga3.jpg */,
+				40EA6CFD1EE80C1D00E908E9 /* yoga2.jpg */,
+				40EA6CFB1EE80C1100E908E9 /* yoga1.jpg */,
+				40EA6CF91EE80BFF00E908E9 /* yoga11.jpg */,
+				40EA6CF71EE80BFA00E908E9 /* yoga10.jpg */,
+				40EA6CF51EE80BF300E908E9 /* yoga9.jpg */,
+				40EA6CF31EE80BEC00E908E9 /* yoga8.gif */,
+				40EA6CF11EE80BE400E908E9 /* CHo7IznWwAAfD6K.jpg */,
+				40EA6CEF1EE80BDD00E908E9 /* world-yoga-day-e1433709376444.jpg */,
+				40EA6CED1EE80BC600E908E9 /* 329596-yoga.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		4533481C2EC93CE429993542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92550E6FC975392D1A68DF83 /* Pods-YogaApp.debug.xcconfig */,
+				8F19750F0C0121FF2C999E6F /* Pods-YogaApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77F33C02E9DA44017F414D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A16039F73BC11130B3386BC0 /* Pods_YogaApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40EA6CE11EE8064700E908E9 /* Build configuration list for PBXNativeTarget "YogaApp" */;
 			buildPhases = (
+				9FB54018B8AB391872A77CD5 /* [CP] Check Pods Manifest.lock */,
 				40EA6CCB1EE8064700E908E9 /* Sources */,
 				40EA6CCC1EE8064700E908E9 /* Frameworks */,
 				40EA6CCD1EE8064700E908E9 /* Resources */,
+				2C26D7AFD85EC676F09138D2 /* [CP] Embed Pods Frameworks */,
+				CB4E8EEF8C18BBB4ADA41793 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +197,7 @@
 				TargetAttributes = {
 					40EA6CCE1EE8064700E908E9 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,13 +225,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EA6CFE1EE80C1D00E908E9 /* yoga2.jpg in Resources */,
 				40EA6CDD1EE8064700E908E9 /* LaunchScreen.storyboard in Resources */,
+				40EA6CE91EE809A000E908E9 /* bell.png in Resources */,
+				40EA6CF81EE80BFA00E908E9 /* yoga10.jpg in Resources */,
+				40EA6CEB1EE80AF700E908E9 /* share-symbol(1).png in Resources */,
+				40EA6CF01EE80BDD00E908E9 /* world-yoga-day-e1433709376444.jpg in Resources */,
+				40EA6CFC1EE80C1100E908E9 /* yoga1.jpg in Resources */,
+				40EA6CE71EE808FE00E908E9 /* share-symbol.png in Resources */,
+				40EA6CFA1EE80BFF00E908E9 /* yoga11.jpg in Resources */,
+				40EA6D021EE80C3300E908E9 /* yoga5.jpg in Resources */,
+				40EA6CEE1EE80BC600E908E9 /* 329596-yoga.jpg in Resources */,
 				40EA6CDA1EE8064700E908E9 /* Assets.xcassets in Resources */,
+				40EA6D001EE80C2C00E908E9 /* yoga3.jpg in Resources */,
+				40EA6CF41EE80BEC00E908E9 /* yoga8.gif in Resources */,
+				40EA6D081EE80E8400E908E9 /* Assets.bundle in Resources */,
+				40EA6CF61EE80BF300E908E9 /* yoga9.jpg in Resources */,
 				40EA6CD81EE8064700E908E9 /* Main.storyboard in Resources */,
+				40EA6CF21EE80BE400E908E9 /* CHo7IznWwAAfD6K.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C26D7AFD85EC676F09138D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YogaApp/Pods-YogaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB54018B8AB391872A77CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB4E8EEF8C18BBB4ADA41793 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YogaApp/Pods-YogaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40EA6CCB1EE8064700E908E9 /* Sources */ = {
@@ -137,7 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				40EA6CD51EE8064700E908E9 /* ViewController.swift in Sources */,
+				409BF67A1EEEA5740087AF8A /* GradientButton.swift in Sources */,
 				40EA6CD31EE8064700E908E9 /* AppDelegate.swift in Sources */,
+				40EA6D061EE80E6600E908E9 /* YTPlayerView.m in Sources */,
+				409BF67C1EEEA9AB0087AF8A /* SecondController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,24 +426,31 @@
 		};
 		40EA6CE21EE8064700E908E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92550E6FC975392D1A68DF83 /* Pods-YogaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = YogaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.YogaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YogaApp/YogaApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		40EA6CE31EE8064700E908E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F19750F0C0121FF2C999E6F /* Pods-YogaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = YogaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.YogaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YogaApp/YogaApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +474,7 @@
 				40EA6CE31EE8064700E908E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
